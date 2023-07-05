@@ -111,9 +111,9 @@ No tests needed at the moment
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Jonathan Arias Gallego**
+👤 **Miguel Cuello**
 
-- GitHub: [sinruidotec](https://github.com/migcm06)
+- GitHub: [migcm06](https://github.com/migcm06)
 - LinkedIn: [LinkedIn]([https://www.linkedin.com/in/jonathan-undefined-385b3926a/](https://www.linkedin.com/in/luis-miguel-cuello-a5a6b5144/))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

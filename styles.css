@@ -63,7 +63,7 @@ h1 {
 h2 {
   color: #fff5e1;
   font-size: 24px;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: 32px;
@@ -74,7 +74,7 @@ h2 {
 p {
   color: #fff;
   font-size: 18px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: initial;
   font-weight: 300;
   line-height: 24px;

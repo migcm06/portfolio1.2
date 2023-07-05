@@ -3,7 +3,7 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./images/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Portfolio: setup and mobile first Exercise</b></h3>
@@ -53,17 +53,6 @@ The project uses the following technologies: Git, Github, linters (stylelint, Li
 
 
 - [Live Demo Link] ()
-
-
-This is a screenshot of the project mobile version.
-
-<img src="screenshot.png" alt="logo" width="600"  height="auto" />
-
-And this is a screenshot taken from a desktop.
-
-<img src="desktop.png" all="Screenshot" width="600" height="auto">
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

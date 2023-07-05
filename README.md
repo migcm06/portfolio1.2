@@ -1,23 +1,23 @@
+
+
+# Portfolio
+Portfolio: setup and mobile first
+
 <a name="readme-top"></a>
 
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="./images/logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Portfolio: setup and mobile first Exercise</b></h3>
-
-</div>
-
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
- 
+
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
+  - [Tech Stack](#tech-stack)
+  - [Key Features](#key-features)
+  - [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -26,80 +26,106 @@
 - [📝 License](#license)
 
 
-<!-- PROJECT DESCRIPTION -->
-
-# 📖 Portfolio: setup and mobile first <a name="about-project"></a>
-
-**Portfolio: setup and mobile first** is the second project that I do for Microverse, in this occasion, you're going to watch how I copied a layout from a given template and made a mockup the most similar possible to the chosen one. I implemented the good practices of writing code especially in the stylesheet.
-
-## 🛠 Built With <a name="built-with"></a>
-
-The project was built with:
-* HTML
-* CSS
-
-### Tech Stack <a name="tech-stack"></a>
-
-The project uses the following technologies: Git, Github, linters (stylelint, Lighthouse and Webhint).
+# 📖 [Portfolio] <a name="about-project"></a>
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+**[Portfolio]** It is a showcase to show my current and future projects.
 
-<!-- LIVE DEMO -->
+## 🛠 Built With <a name="built-with-">'Jonathan-Arias'</a>
 
-## 🚀 Live Demo <a name="live-demo"></a>
+### Tech Stack <a name="tech-stack">HTML, CSS</a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+  </ul>
+<ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
 
 
-
-
-- [Live Demo Link] ()
+- **[[Descriptive_README_File]**
+- **[Mobile_first_project]**
+- **[Linterns_Best_Practices]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
-To get a local copy up and running, follow these steps:
+To get a local copy up and running, follow these steps.
 
-*1* You should open your Terminal and copy the SSH link to clone it to your local machine.
-</br>
-*2* When you had downloaded it, you can run it open the index.html file on your browser.
+1. Download the repo or clone it
 
+2. Use Live server extention 
+ID: ritwickdey.LiveServer
+Or run it via GitHub Pages
+### Prerequisites
 
+In order to run this project you need:
+
+Visual Studio or any other editor such as Sublime Text
+A localhost or a github pages set up
 
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-using this: 
-  git clone git@github.com:migcm06/portfolio1.2.git
+
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
 
 
+### Install
+
+Install this project with:
+
+No installation needed
+
+### Usage
+
+To run the project, execute the following command:
+
+Open a live server or a localhost to test it local
+Or
+Uploaded to Github and use Github Pages
 
 
-<!-- AUTHORS -->
+### Run tests
 
-## 👥 Authors <a name="authors"></a>
+To run tests, run the following command:
 
-
-👤 **Miguel Cuello**
-
-- GitHub: [@githubhandle](https://github.com/migcm06)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/luis-miguel-cuello-a5a6b5144/)
+No tests needed at the moment
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Jonathan Arias Gallego**
+
+- GitHub: [sinruidotec](https://github.com/migcm06)
+- LinkedIn: [LinkedIn]([https://www.linkedin.com/in/jonathan-undefined-385b3926a/](https://www.linkedin.com/in/luis-miguel-cuello-a5a6b5144/))
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+- [ ] **[Section_2]**
+- [ ] **[Responsive_Design]**
+- [ ] **[Additional_projects]**
 
-- [1] I would like to work fix the overflow of some decoration in the page.
-
-<!-- CONTRIBUTING -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -109,27 +135,22 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-
-
-<!-- SUPPORT -->
 ## ⭐️ Show your support <a name="support"></a>
 
-
-If you like this project, please let me know it in a comment or if you want reply it and it don't run for you i will be happy to help you.
+If you like this project we encourage you to support Microverse to keep helping the future of web development and creating such a good habits on the future developers around the world.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to mention that the best way of working with Stylelint lint is looking and read carefully the official documentation on their webpage.
+I would like to thank Microverse for this lesson and the portfolio desing
 
-<!-- LICENSE -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

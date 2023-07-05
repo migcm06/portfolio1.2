@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
 
 * {
   box-sizing: border-box;
@@ -43,12 +43,50 @@ span.logo {
   background-color: #1c1a19;
   width: 100vw;
   height: 100vh;
+  background-image: url(./images/Illustration.png);
+  background-repeat: no-repeat;
+  background-position: 99% 94%;
 }
 
 h1 {
   color: #ff6b00;
+  font-size: 56px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  padding-top: 35%;
+  padding-left: 5%;
 }
 
 h2 {
   color: #fff5e1;
+  font-size: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  padding-left: 5%;
+  margin-bottom: 1%;
+}
+
+p {
+  color: #fff;
+  font-size: 18px;
+  font-family: Poppins;
+  font-style: initial;
+  font-weight: 300;
+  line-height: 24px;
+  padding-left: 5%;
+}
+
+div.social {
+  margin-left: 7%;
+  padding-top: 6%;
+}
+
+.icon {
+  padding-top: 2%;
+  margin-right: 7%;
 }

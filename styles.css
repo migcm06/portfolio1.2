@@ -109,11 +109,6 @@ h3 {
   margin-bottom: 18%;
 }
 
-.card {
-  display: flex;
-  justify-content: center;
-}
-
 .image-container {
   max-width: 100%;
   max-height: 100%;
@@ -186,4 +181,64 @@ button {
   border: none;
   margin-bottom: 10%;
   margin-top: -8%;
+}
+
+.card {
+  background-image: url(./images/Img\ Placeholder\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: 327px 386px;
+  width: 100%;
+  height: 60vh;
+  margin: 5%;
+  margin-top: 47%;
+}
+
+.card-title {
+  color: #fff;
+  font-family: 'Crete Round', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  margin-top: -47%;
+  padding-top: 18%;
+  position: relative;
+  left: 4%;
+  width: 91%;
+}
+
+.card-text {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 87%;
+}
+
+.techs-card {
+  display: flex;
+  color: white;
+  margin-top: 2%;
+  position: relative;
+  left: -5%;
+}
+
+.tech-card {
+  margin-right: 2%;
+  background: rgba(255, 255, 255, 0.24);
+  padding: 4%;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.c-project {
+  width: 87.3%;
+  position: relative;
+  left: 0%;
+  top: 12%;
 }

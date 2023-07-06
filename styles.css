@@ -184,7 +184,7 @@ button {
 }
 
 .card {
-  background-image: url(./images/Img\ Placeholder\ \(1\).png);
+  background-image: url(./images/Img\ Placeholder\ \(1\).png) ;
   background-repeat: no-repeat;
   background-size: 327px 386px;
   width: 100%;

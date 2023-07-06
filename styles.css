@@ -174,7 +174,7 @@ button {
   background-color: #ff6b00;
   color: #fff;
   text-align: center;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 700;
@@ -185,4 +185,5 @@ button {
   left: 5%;
   border: none;
   margin-bottom: 10%;
+  margin-top: -8%;
 }

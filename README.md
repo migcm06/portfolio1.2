@@ -31,7 +31,7 @@ Portfolio: setup and mobile first
 
 **[Portfolio]** It is a showcase to show my current and future projects.
 
-## 🛠 Built With <a name="built-with-">'Jonathan-Arias'</a>
+## 🛠 Built With <a name="built-with-">'Miguel Cuello'</a>
 
 ### Tech Stack <a name="tech-stack">HTML, CSS</a>
 

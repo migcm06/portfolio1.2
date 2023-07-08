@@ -187,6 +187,8 @@ button {
   margin: 5%;
   margin-top: 10%;
   align-self: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-title {
@@ -246,6 +248,8 @@ button {
   background-position: 99% 21%;
   height: 300vh;
   margin-bottom: 31%;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-me-title {
@@ -340,7 +344,7 @@ button {
   background-color: #ff6b00;
   transform: rotate(45deg);
   position: absolute;
-  margin-top: 4%;
+  margin-top: 19%;
   left: 22%;
 }
 

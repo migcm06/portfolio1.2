@@ -33,7 +33,7 @@ span.logo {
 
 #home {
   background-color: #1c1a19;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-image: url(./images/Illustration.png);
   background-repeat: no-repeat;
@@ -128,7 +128,6 @@ h3 {
   font-weight: 400;
   line-height: 44px;
   margin-top: -3%;
-  margin-left: 5%;
 }
 
 .project-text {
@@ -140,16 +139,16 @@ h3 {
   line-height: 24px;
   width: 90%;
   margin-bottom: 4%;
+  margin-left: -5%;
 }
 
 ul.techs {
   display: flex;
-  color: red;
   position: relative;
-  left: -6%;
-  width: 95%;
+  left: -11%;
+  width: 104%;
   justify-content: space-between;
-  margin-bottom: 10%;
+  margin-bottom: 3%;
 }
 
 li.tech {
@@ -179,18 +178,15 @@ button {
   border: none;
 }
 
-.b-project {
-  margin-left: 5%;
-}
-
 .card {
   background-image: url(./images/card.png);
   background-repeat: no-repeat;
-  background-size: 327px 386px;
-  width: 100%;
+  background-size: 100% 105%;
+  width: auto;
   height: 60vh;
   margin: 5%;
-  margin-top: 47%;
+  margin-top: 10%;
+  align-self: center;
 }
 
 .card-title {
@@ -200,11 +196,9 @@ button {
   font-style: normal;
   font-weight: 400;
   line-height: 44px;
-  margin-top: -47%;
-  padding-top: 18%;
-  position: relative;
-  left: 4%;
-  width: 91%;
+  width: 83%;
+  margin-top: 18%;
+  margin-left: 5%;
 }
 
 .card-text {
@@ -222,7 +216,7 @@ button {
   color: white;
   margin-top: 2%;
   position: relative;
-  left: -5%;
+  left: -7%;
 }
 
 .tech-card {
@@ -237,10 +231,8 @@ button {
 }
 
 .c-project {
-  width: 87%;
-  position: relative;
-  left: 0%;
-  top: 12%;
+  width: 100%;
+  margin-top: 23%;
 }
 
 .last-card {
@@ -251,8 +243,9 @@ button {
   background-color: #1c1a19;
   background-image: url(./images/Illustration2.png);
   background-repeat: no-repeat;
-  background-position: 98% 91%;
-  height: 101vh;
+  background-position: 99% 21%;
+  height: 300vh;
+  margin-bottom: 31%;
 }
 
 .about-me-title {
@@ -274,7 +267,7 @@ button {
   font-weight: 400;
   line-height: 24px;
   width: 88%;
-  padding-bottom: 11%;
+  padding-bottom: 6%;
 }
 
 .resume {
@@ -282,10 +275,90 @@ button {
 }
 
 .line-white {
-  width: 310px;
+  width: 87%;
   height: 1px;
   background-color: #fff;
   position: relative;
-  left: 9%;
-  top: 30%;
+  margin-top: 62%;
+  margin-left: 6%;
+}
+
+.recent-work {
+  display: grid;
+}
+
+.text {
+  margin-left: 5%;
+}
+
+.about-me-text {
+  margin: 2%;
+}
+
+.rectangle {
+  position: absolute;
+  left: 18%;
+  margin-top: 2%;
+}
+
+.language {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  position: relative;
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.skills {
+  color: white;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42.667px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: -8%;
+  margin-top: 10%;
+}
+
+.lan {
+  margin-bottom: 5%;
+}
+
+.rombo {
+  width: 17px;
+  height: 17px;
+  background-color: #ff6b00;
+  transform: rotate(45deg);
+  position: absolute;
+  margin-top: 4%;
+  left: 22%;
+}
+
+.square {
+  width: 17px;
+  height: 17px;
+  background-color: #ff6b00;
+  position: absolute;
+  margin-top: 18%;
+  left: 14%;
+}
+
+.circle {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: #ff6b00;
+  position: absolute;
+  margin-top: 19%;
+  left: 31%;
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
 
 * {
   box-sizing: border-box;
@@ -31,17 +31,9 @@ span.logo {
   height: 24px;
 }
 
-.line {
-  width: 100%;
-  height: 3px;
-  background-color: #fff;
-  margin-bottom: 4px;
-  border-radius: 2px;
-}
-
 #home {
   background-color: #1c1a19;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-image: url(./images/Illustration.png);
   background-repeat: no-repeat;
@@ -93,4 +85,284 @@ ul.social {
 .icon {
   padding-top: 2%;
   margin-right: 7%;
+}
+
+h3 {
+  color: #1c1a19;
+  font-family: 'Crete Round', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 52px;
+  padding-top: 25%;
+  padding-bottom: 7%;
+  display: grid;
+  justify-content: center;
+}
+
+.line {
+  width: 310px;
+  height: 1px;
+  background-color: #212121;
+  position: relative;
+  left: 9%;
+  margin-bottom: 18%;
+}
+
+.image-container {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 5%;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.project-title {
+  color: #091e42;
+  font-family: 'Crete Round', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  margin-top: -3%;
+}
+
+.project-text {
+  color: #091e42;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 90%;
+  margin-bottom: 4%;
+  margin-left: -5%;
+}
+
+ul.techs {
+  display: flex;
+  position: relative;
+  left: -11%;
+  width: 104%;
+  justify-content: space-between;
+  margin-bottom: 3%;
+}
+
+li.tech {
+  color: #091e42;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 10px 12px;
+  align-items: center;
+  border: 1px solid #8993a4;
+  background: #fff;
+}
+
+button {
+  background-color: #ff6b00;
+  color: #fff;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.51px;
+  padding: 4%;
+  border: none;
+}
+
+.card {
+  background-image: url(./images/card.png);
+  background-repeat: no-repeat;
+  background-size: 100% 105%;
+  width: auto;
+  height: auto;
+  margin: 5%;
+  margin-top: 10%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  color: #fff;
+  font-family: 'Crete Round', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  width: 83%;
+  margin-top: 18%;
+  margin-left: 5%;
+}
+
+.card-text {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 87%;
+}
+
+.techs-card {
+  display: flex;
+  color: white;
+  margin-top: 2%;
+  position: relative;
+  left: -7%;
+}
+
+.tech-card {
+  margin-right: 2%;
+  background: rgba(255, 255, 255, 0.24);
+  padding: 4%;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.c-project {
+  width: 100%;
+  margin-top: 23%;
+}
+
+.last-card {
+  margin-bottom: 20%;
+}
+
+.about-me {
+  background-color: #1c1a19;
+  background-image: url(./images/Illustration2.png);
+  background-repeat: no-repeat;
+  background-position: 99% 21%;
+  height: auto;
+  margin-bottom: 31%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-title {
+  color: #ff6b00;
+  font-family: 'Crete Round', sans-serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  padding-top: 30%;
+}
+
+.about-text {
+  color: #f4f5f7;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 88%;
+  padding-bottom: 6%;
+}
+
+.resume {
+  margin-left: 5%;
+}
+
+.line-white {
+  width: 87%;
+  height: 1px;
+  background-color: #fff;
+  position: relative;
+  margin-top: 62%;
+  margin-left: 6%;
+}
+
+.recent-work {
+  display: grid;
+}
+
+.text {
+  margin-left: 5%;
+}
+
+.about-me-text {
+  margin: 2%;
+}
+
+.rectangle {
+  position: absolute;
+  left: 18%;
+  margin-top: 2%;
+}
+
+.language {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  position: relative;
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.skills {
+  color: white;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42.667px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: -8%;
+  margin-top: 10%;
+}
+
+.lan {
+  margin-bottom: 5%;
+}
+
+.rombo {
+  width: 17px;
+  height: 17px;
+  background-color: #ff6b00;
+  transform: rotate(45deg);
+  position: absolute;
+  margin-top: 19%;
+  left: 22%;
+}
+
+.square {
+  width: 17px;
+  height: 17px;
+  background-color: #ff6b00;
+  position: absolute;
+  margin-top: 18%;
+  left: 14%;
+}
+
+.circle {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: #ff6b00;
+  position: absolute;
+  margin-top: 19%;
+  left: 31%;
 }

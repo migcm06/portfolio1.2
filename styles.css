@@ -372,3 +372,23 @@ button {
   width: 100%;
   height: auto;
 }
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.form-text {
+  color: var(--neutrals-n-800, #172B4D);
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  width: 87%;
+  display: flex;
+  margin-top: 15%;
+}
+

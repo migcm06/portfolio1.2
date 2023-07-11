@@ -400,3 +400,9 @@ button {
   display: flex;
   flex-direction: column;
 }
+
+.techs-card-two {
+  float: left;
+  position: relative;
+  left: -7%;
+}

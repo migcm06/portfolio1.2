@@ -400,10 +400,75 @@ button {
 #form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .techs-card-two {
   float: left;
   position: relative;
   left: -7%;
+}
+
+input {
+  color: #979493;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  border: none;
+  background-color: transparent;
+  width: 88%;
+  margin: 7%;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+textarea {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  border: none;
+  position: relative;
+  width: 89%;
+  resize: both;
+  overflow: auto;
+  padding-right: 20px; /* Ajusta este valor según el ancho de tu imagen/icono */
+  background-color: #fbf8f7;
+  background-image: url('./images/reziser.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  height: 20vh;
+  margin-bottom: 10%;
+}
+
+.get-in-touch {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.51px;
+  width: 39%;
+  margin-bottom: 16%;
+}
+
+textarea.input-textarea::placeholder {
+  color: black;
+}
+
+.final {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  margin-left: 9%;
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+.input-text {
+  padding-bottom: 5%;
 }

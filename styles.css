@@ -384,9 +384,9 @@ button {
 }
 
 .form-text {
-  color: var(--neutrals-n-800, #172B4D);
+  color: #172B4D;
   text-align: center;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;

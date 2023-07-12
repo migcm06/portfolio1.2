@@ -165,7 +165,7 @@ li.tech {
 }
 
 button {
-  background-color: #ff6b00;
+  background-color: #e05304;
   color: #fff;
   text-align: center;
   font-family: 'Inter', sans-serif;
@@ -176,6 +176,12 @@ button {
   letter-spacing: 0.51px;
   padding: 4%;
   border: none;
+}
+
+button:hover {
+  background-color: transparent;
+  color: #ff6b00;
+  border: 1px solid #ff6b00;
 }
 
 .card {
@@ -420,7 +426,7 @@ input {
   border: none;
   background-color: transparent;
   width: 88%;
-  margin: 7%;
+  margin: 5%;
   border-bottom: 1px solid #dbd8d7;
 }
 
@@ -441,10 +447,11 @@ textarea {
   background-repeat: no-repeat;
   background-position: right bottom;
   height: 20vh;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
+  padding-left: 5%;
 }
 
-.get-in-touch {
+button.get-in-touch {
   color: #fff;
   text-align: center;
   font-family: 'Inter', sans-serif;
@@ -455,6 +462,12 @@ textarea {
   letter-spacing: 0.51px;
   width: 39%;
   margin-bottom: 16%;
+  cursor: pointer;
+  padding: 3%;
+}
+
+.get-in-touch:hover {
+  color: #ff6b00;
 }
 
 textarea.input-textarea::placeholder {
@@ -466,10 +479,15 @@ textarea.input-textarea::placeholder {
   width: 70%;
   justify-content: space-around;
   margin-left: 9%;
-  margin-top: 10%;
+  margin-top: 8%;
   margin-bottom: 15%;
 }
 
 .input-text {
-  padding-bottom: 5%;
+  padding-bottom: 4%;
+  padding-left: 4%;
+}
+
+footer {
+  border-top: 1px solid #dfe1e6;
 }

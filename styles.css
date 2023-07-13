@@ -582,47 +582,49 @@ footer {
   .line {
     width: 51%;
     top: 70%;
-  }  
-  
+  }
+
   .card-image {
-  width: 116%;
-  height: 54vh;
-  margin-left: -1.2%;
-}
-.image-container {
-  display: flex;
-  width: 100%;
-}
-.project-title {
-  color: #091e42;
-  font-family: 'Crete Round', sans-serif;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 44px;
-  margin-top: -1%;
-  margin-left: -5%;
-}
+    width: 116%;
+    height: 54vh;
+    margin-left: -1.2%;
+  }
 
-.project-text {
-  width: 64%;
-  margin-left: -10%;
-}
+  .image-container {
+    display: flex;
+    width: 100%;
+  }
 
-li.tech {
-  padding: 2%;
-}
+  .project-title {
+    color: #091e42;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    margin-top: -1%;
+    margin-left: -5%;
+  }
 
-ul.techs {
-  width: 50%;
-}
+  .project-text {
+    width: 64%;
+    margin-left: -10%;
+  }
 
-button {
-  padding: 1%;
-  margin-left: -4%;
-  width: 17%;
-  font-size: 13px;
-}
+  li.tech {
+    padding: 2%;
+  }
+
+  ul.techs {
+    width: 50%;
+  }
+
+  button {
+    padding: 1%;
+    margin-left: -4%;
+    width: 17%;
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 767px) {

@@ -496,6 +496,11 @@ footer {
 }
 
 @media (min-width: 768px) {
+  header {
+    position: fixed;
+    z-index: 20;
+  }
+
   nav {
     position: fixed;
   }
@@ -562,6 +567,62 @@ footer {
     background-size: contain;
     background-position: 100% 91%;
   }
+
+  .title-r-w {
+    display: flex;
+  }
+
+  h3 {
+    padding-top: 5%;
+    margin-top: 5%;
+    padding-bottom: 0%;
+    margin-left: 5%;
+  }
+
+  .line {
+    width: 51%;
+    top: 70%;
+  }  
+  
+  .card-image {
+  width: 116%;
+  height: 54vh;
+  margin-left: -1.2%;
+}
+.image-container {
+  display: flex;
+  width: 100%;
+}
+.project-title {
+  color: #091e42;
+  font-family: 'Crete Round', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  margin-top: -1%;
+  margin-left: -5%;
+}
+
+.project-text {
+  width: 64%;
+  margin-left: -10%;
+}
+
+li.tech {
+  padding: 2%;
+}
+
+ul.techs {
+  width: 50%;
+}
+
+button {
+  padding: 1%;
+  margin-left: -4%;
+  width: 17%;
+  font-size: 13px;
+}
 }
 
 @media (max-width: 767px) {
@@ -573,4 +634,6 @@ footer {
     margin-left: 7%;
     padding-top: 6%;
   }
+
+
 }

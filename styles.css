@@ -7,6 +7,11 @@
   margin: 0%;
 }
 
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 header {
   background-color: #3c3a39;
   width: 100vw;
@@ -529,6 +534,33 @@ footer {
 
   .icon {
     padding-bottom: 5%;
+  }
+
+  h1 {
+    position: absolute;
+    top: -39%;
+    left: 3%;
+  }
+
+  .span {
+    position: absolute;
+    left: 3%;
+    top: 55%;
+  }
+
+  .main-text {
+    position: absolute;
+    left: 3.1%;
+    top: 62%;
+    width: 50%;
+    line-height: 30px;
+  }
+
+  #home {
+    background-image: url('./images/header.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% 91%;
   }
 }
 

@@ -25,8 +25,8 @@ span.logo {
 
 .hamburger-menu {
   cursor: pointer;
-  position: relative;
-  left: 67%;
+  position: absolute;
+  left: 84%;
   width: 24px;
   height: 24px;
 }
@@ -74,8 +74,6 @@ p {
 }
 
 ul.social {
-  margin-left: 7%;
-  padding-top: 6%;
   display: flex;
   width: 62vw;
   padding-left: 3%;
@@ -441,7 +439,7 @@ textarea {
   width: 89%;
   resize: both;
   overflow: auto;
-  padding-right: 20px; /* Ajusta este valor según el ancho de tu imagen/icono */
+  padding-right: 20px;
   background-color: #fbf8f7;
   background-image: url('./images/reziser.svg');
   background-repeat: no-repeat;
@@ -490,4 +488,57 @@ textarea.input-textarea::placeholder {
 
 footer {
   border-top: 1px solid #dfe1e6;
+}
+
+
+@media(min-width: 768px) {
+  nav {
+    position: fixed;
+  }
+  .logo {
+    position: relative;
+    margin-top: -5%;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    color: white;
+    position: relative;
+    left: 310%;
+    margin-top: -25%;
+  }
+
+  .nav-link {
+    margin-left: 20%; 
+  }
+
+  ul.social {
+    justify-content: space-between;
+    flex-direction: column;
+    height: 34vh;
+    position: absolute;
+    top: 39%;
+    display: flex;
+  }
+
+  .icon {
+    padding-bottom: 5%;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+
+  ul.social {
+    margin-left: 7%;
+    padding-top: 6%;
+  }
 }

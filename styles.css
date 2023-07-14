@@ -293,7 +293,7 @@ button:hover {
   height: 1px;
   background-color: #fff;
   position: relative;
-  margin-top: 80%;
+  margin-top: 70%;
   margin-left: 6%;
 }
 
@@ -668,7 +668,7 @@ footer {
     position: relative;
     margin-top: 16%;
     margin-left: 4%;
-    margin-bottom: 15%;
+    margin-bottom: 13%;
   }
 
   .skill-container {
@@ -682,61 +682,73 @@ footer {
 
   .rombo {
     position: absolute;
-    top: 470%;
-    left: 7%;
+    top: 466%;
+    left: 7.6%;
+    width: 14px;
+    height: 14px;
+
   }
 
   .square {
     position: absolute;
-    top: 471%;
-    left: 42%;
+    top: 468%;
+    left: 43%;
+    width: 14px;
+    height: 14px;
   }
 
   .circle {
-    width: 20px;
-    height: 20px;
+    width: 14px;
+    height: 14px;
     position: absolute;
-    top: 469%;
-    left: 77%;
+    top: 466%;
+    left: 70%;
   }
 
   .language {
-    margin-top: -6%;
-    margin-left: 10%;
-  }
-
-  .skills {
-    margin-top: 5%;
-    margin-left: -42%;
-    text-align: left;
-    padding-left: 0;
-  }
-
-  .skillsb {
-    margin-left: -54%;
-  }
-
-  .lan {
-    margin-bottom: 5px;
-    list-style-type: none;
-    margin-bottom: 11%;
-  }
-
-  .contact-form {
-    display: flex;
-  }
-
-  .skill-title {
-    display: flex;
-  }
-
-  h5.language {
     margin-top: -21%;
-    margin-left: 32%;
+    margin-left: 7%;
   }
 
-  .last-lan {
-    margin-bottom: 50%;
+  .fr {
+    margin-left: 19%;
+  }
+
+  .sk {
+    margin-left: -64%;
+  }
+
+  ul.skills.lang {
+    text-align: start;
+    margin-left: 20%;
+  }
+
+  ul.skillsb {
+    text-align: start;
+    margin-left: 22%;
+  }
+
+  ul.two {
+    text-align: start;
+    margin-left: -4%;
+  }
+
+  .last {
+    padding-bottom: 20%;
+  }
+
+  .form-text {
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    width: 36%;
+    text-align: start;
+    position: relative;
+    top: -91%;
+    left: -24%;
   }
 }
 

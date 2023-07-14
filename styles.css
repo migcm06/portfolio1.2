@@ -655,7 +655,7 @@ footer {
     background-color: #1c1a19;
     background-image: url('./images/image2.png');
     background-repeat: no-repeat;
-    background-position: 100% 2%;
+    background-position: 100% 9%;
     height: auto;
     margin-bottom: 31%;
     display: flex;
@@ -669,22 +669,54 @@ footer {
     position: relative;
     margin-top: 16%;
     margin-left: 4%;
+    margin-bottom: 15%;
   }
 
-  .skill {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+  .skill-container {
+    display: flex;
+    justify-content: space-between;
   }
 
+  .skill-container > div {
+    flex-basis: 30%;
+  }
+
+  .rombo {
+    position: absolute;
+    top: 470%;
+    left: 7%;
+  }
+
+  .square {
+    position: absolute;
+    top: 472%;
+    left: 40%;
+  }
+
+  .circle {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 470%;
+    left: 76%;
+  }
+  
   .language {
-    grid-column: span 1;
+    margin-top: -6%;
+    margin-left: 10%;
   }
-
+  
   .skills {
-    grid-column: span 1;
+    margin-top: 5px;
+    padding-left: 0;
   }
-}
+  
+  .lan {
+    list-style-type: none;
+    margin-bottom: 5px;
+  }
+  
+} 
 
 @media (max-width: 767px) {
   .nav-links {

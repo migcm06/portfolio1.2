@@ -676,11 +676,11 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
   }
-  
+
   .language {
     grid-column: span 1;
   }
-  
+
   .skills {
     grid-column: span 1;
   }

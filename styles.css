@@ -338,7 +338,6 @@ button:hover {
   line-height: 42.667px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   position: relative;
   left: -8%;
   margin-top: 10%;
@@ -525,7 +524,7 @@ footer {
   }
 
   .nav-link {
-    margin-left: 20%;
+    margin-left: 24%;
   }
 
   ul.social {
@@ -689,16 +688,16 @@ footer {
 
   .square {
     position: absolute;
-    top: 472%;
-    left: 40%;
+    top: 471%;
+    left: 42%;
   }
 
   .circle {
     width: 20px;
     height: 20px;
     position: absolute;
-    top: 470%;
-    left: 76%;
+    top: 469%;
+    left: 77%;
   }
 
   .language {
@@ -707,13 +706,38 @@ footer {
   }
 
   .skills {
-    margin-top: 5px;
+    margin-top: 5%;
+    margin-left: -42%;
+    text-align: left;
     padding-left: 0;
+  }
+
+  .skillsb {
+    margin-left: -54%;
   }
 
   .lan {
     list-style-type: none;
     margin-bottom: 5px;
+    list-style-type: none;
+    margin-bottom: 11%;
+  }
+
+  .contact-form {
+    display: flex;
+  }
+
+  .skill-title {
+    display: flex;
+  }
+
+  h5.language {
+    margin-top: -21%;
+    margin-left: 32%;
+  }
+
+  .last-lan {
+    margin-bottom: 50%;
   }
 }
 
@@ -725,5 +749,9 @@ footer {
   ul.social {
     margin-left: 7%;
     padding-top: 6%;
+  }
+
+  .skills {
+    align-items: center;
   }
 }

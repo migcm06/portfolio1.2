@@ -700,23 +700,22 @@ footer {
     top: 470%;
     left: 76%;
   }
-  
+
   .language {
     margin-top: -6%;
     margin-left: 10%;
   }
-  
+
   .skills {
     margin-top: 5px;
     padding-left: 0;
   }
-  
+
   .lan {
     list-style-type: none;
     margin-bottom: 5px;
   }
-  
-} 
+}
 
 @media (max-width: 767px) {
   .nav-links {

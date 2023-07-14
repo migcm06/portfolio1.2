@@ -682,7 +682,7 @@ footer {
 
   .rombo {
     position: absolute;
-    top: 466%;
+    top: 456%;
     left: 7.6%;
     width: 14px;
     height: 14px;
@@ -690,7 +690,7 @@ footer {
 
   .square {
     position: absolute;
-    top: 468%;
+    top: 458%;
     left: 43%;
     width: 14px;
     height: 14px;
@@ -700,7 +700,7 @@ footer {
     width: 14px;
     height: 14px;
     position: absolute;
-    top: 466%;
+    top: 456%;
     left: 70%;
   }
 

@@ -656,12 +656,7 @@ footer {
 
   .card:hover {
     background-image: url('./images/replace.png');
-    background-size: contain;  
-  }
-
-  .c-project {
-    display: none;
-    margin-top: 0%;
+    background-size: contain;
   }
 
   .techs-card-two {
@@ -671,11 +666,11 @@ footer {
   .card:hover .card-content {
     display: none;
   }
-  
+
   .hidden-button {
     display: none;
   }
-  
+
   .card:hover .hidden-button {
     display: block;
   }

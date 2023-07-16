@@ -183,7 +183,7 @@ button {
 }
 
 button:hover {
-  background-color: transparent;
+  background-color: white;
   color: #ff6b00;
   border: 1px solid #ff6b00;
 }
@@ -245,7 +245,11 @@ button:hover {
 
 .c-project {
   width: 100%;
-  margin-top: 23%;
+  margin-top: -10%;
+}
+
+.card-content:hover {
+  visibility: hidden;
 }
 
 .last-card {
@@ -630,7 +634,7 @@ footer {
     width: 36%;
     justify-content: space-between;
     margin-top: -2%;
-    margin-left: 53%;
+    margin-left: 53.5%;
     position: static;
   }
 
@@ -650,6 +654,32 @@ footer {
     width: 87%;
   }
 
+  .card:hover {
+    background-image: url('./images/replace.png');
+    background-size: contain;  
+  }
+
+  .c-project {
+    display: none;
+    margin-top: 0%;
+  }
+
+  .techs-card-two {
+    margin-bottom: 5%;
+  }
+
+  .card:hover .card-content {
+    display: none;
+  }
+  
+  .hidden-button {
+    display: none;
+  }
+  
+  .card:hover .hidden-button {
+    display: block;
+  }
+
   .recent-work {
     display: grid;
     align-content: center;
@@ -660,7 +690,7 @@ footer {
 
   .c-project {
     width: 100%;
-    margin-top: 23%;
+    margin-top: -11%;
     left: 0;
     padding: 2%;
   }

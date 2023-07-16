@@ -475,6 +475,7 @@ button.get-in-touch {
 
 .get-in-touch:hover {
   color: #ff6b00;
+  transition: 1s;
 }
 
 textarea.input-textarea::placeholder {

@@ -9,40 +9,48 @@
 </head>
 <body>
     <header>
+        <nav>
         <div class="logo">
         <a href="#"><span class="logo">My Logo</span></a>
         </div>
-        <nav class="hamburger-menu">
-            <img src="./images/Icon - Menu.svg" alt="hamburger-menu">
+        
+            <img src="./images/Icon - Menu.svg" alt="hamburger-menu" class="hamburger-menu">
+            <ul class="nav-links">
+                <li class="nav-link">Portfolio</li>
+                <li class="nav-link">About</li>
+                <li class="nav-link">Contact</li>
+                <li class="nav-link"><img src="./images/Icon - Mail.png" alt="mail"></li>
+            </ul>
         </nav>
 </header>
     <section id="home">
         <h1>Hey There.
         </br>
             I’m Migue.</h1>
-        <h2>I'm a Software Developer</h2>
+        <h2 class="span">I'm a Software Developer</h2>
         <p class="main-text">
             I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
             don’t hesitate to contact me.
         </p>
         <ul class="social">
-            <li><a href="#" class="icon"><img src="./images/Frame (2).svg"></a></li>
-            <li><a href="#" class="icon"><img src="./images/Frame (1).svg"></a></li>
-            <li><a href="#" class="icon"><img src="./images/angelist 1.svg"></a></li>
-            <li><a href="#" class="icon"><img src="./images/Frame.svg"></a></li>
-            <li><a href="#" class="icon"><img src="./images/Icon - Medium.svg"></a></li>
+            <li><a href="#" ><img src="./images/Frame (2).svg" class="icon"></a></li>
+            <li><a href="#" ><img src="./images/Frame (1).svg" class="icon"></a></li>
+            <li><a href="#" ><img src="./images/angelist 1.svg" class="icon"></a></li>
+            <li><a href="#" ><img src="./images/Frame.svg" class="icon"></a></li>
+            <li><a href="#" ><img src="./images/Icon - Medium.svg" class="icon"></a></li>
         </ul>
     </section>
-    <section class="recent-work">
-        
-        <h3 class="card-main-title">My Recent Works</h3>
 
-        <div class="line"></div>
-            <div class="image-container">
-            <img src="./images/Img Placeholder.png" alt="A screenshot" class="card-image">
-            </div>
+    <section class="recent-work">
+            <div class="image-container"> <div class="title-r-w">
+            <h3 class="card-main-title">My Recent Works</h3>
+            <div class="line"></div>
+        </div>
+            
             <div class="text">
-                <h4 class="project-title">Multi-Post Stories</h4> 
+                <img src="./images/Img Placeholder.png" alt="A screenshot" class="card-image"> 
+                <div class="text-text">
+                        <h4 class="project-title">Multi-Post Stories</h4> 
                 <p class="project-text">
                     A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
                 </p>   
@@ -53,107 +61,134 @@
                     <li class="tech">Ruby</li>
                 </ul>
                 <button class="b-project">See project</button>
+                </div>
+            
             </div>
-            <div class="card">
-                <h5 class="card-title">Profesional Art Printing Data</h5>
-                <p class="card-text">
-                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
-                </p>
-                <ul class="techs-card-two">
-                    <li class="tech-card">HTML</li>
-                    <li class="tech-card">Bootstrap</li>
-                    <li class="tech-card">Ruby</li>
-                </ul>
-                <button class="c-project">See project</button>
             </div>
-            <div class="card">
-                <h5 class="card-title">Profesional Art Printing Data</h5>
-                <p class="card-text">
-                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
-                </p>
-                <ul class="techs-card-two">
-                    <li class="tech-card">HTML</li>
-                    <li class="tech-card">Bootstrap</li>
-                    <li class="tech-card">Ruby</li>
-                </ul>
-                <button class="c-project">See project</button>
+
+            <div class="card-container">
+                <div class="card">
+                    <h5 class="card-title">Profesional Art Printing Data</h5>
+                    <p class="card-text">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
+                    </p>
+                    <ul class="techs-card-two">
+                        <li class="tech-card">HTML</li>
+                        <li class="tech-card">Bootstrap</li>
+                        <li class="tech-card">Ruby</li>
+                    </ul>
+                    <button class="c-project hidden-button">See project</button>
+                </div>
+                <div class="card">
+                    <h5 class="card-title">Profesional Art Printing Data</h5>
+                    <p class="card-text">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
+                    </p>
+                    <ul class="techs-card-two">
+                        <li class="tech-card">HTML</li>
+                        <li class="tech-card">Bootstrap</li>
+                        <li class="tech-card">Ruby</li>
+                    </ul>
+                    <button class="c-project hidden-button">See project</button>
+                </div>
+                <div class="card">
+                    <h5 class="card-title">Profesional Art Printing Data</h5>
+                    <p class="card-text">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
+                    </p>
+                    <ul class="techs-card-two">
+                        <li class="tech-card">HTML</li>
+                        <li class="tech-card">Bootstrap</li>
+                        <li class="tech-card">Ruby</li>
+                    </ul>
+                    <button class="c-project hidden-button">See project</button>
+                </div>
+                <div class="card">
+                    <h5 class="card-title">Profesional Art Printing Data</h5>
+                    <p class="card-text">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
+                    </p>
+                    <ul class="techs-card-two">
+                        <li class="tech-card">HTML</li>
+                        <li class="tech-card">Bootstrap</li>
+                        <li class="tech-card">Ruby</li>
+                    </ul>
+                    <button class="c-project hidden-button">See project</button>
+                </div>
+                <div class="card">
+                    <h5 class="card-title">Profesional Art Printing Data</h5>
+                    <p class="card-text">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
+                    </p>
+                    <ul class="techs-card-two">
+                        <li class="tech-card">HTML</li>
+                        <li class="tech-card">Bootstrap</li>
+                        <li class="tech-card">Ruby</li>
+                    </ul>
+                    <button class="c-project hidden-button">See project</button>
+                </div>
+                <div class="card">
+                    <h5 class="card-title">Profesional Art Printing Data</h5>
+                    <p class="card-text">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
+                    </p>
+                    <ul class="techs-card-two">
+                        <li class="tech-card">HTML</li>
+                        <li class="tech-card">Bootstrap</li>
+                        <li class="tech-card">Ruby</li>
+                    </ul>
+                    <button class="c-project hidden-button">See project</button>
+                </div>
             </div>
-            <div class="card">
-                <h5 class="card-title">Profesional Art Printing Data</h5>
-                <p class="card-text">
-                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
-                </p>
-                <ul class="techs-card-two">
-                    <li class="tech-card">HTML</li>
-                    <li class="tech-card">Bootstrap</li>
-                    <li class="tech-card">Ruby</li>
-                </ul>
-                <button class="c-project">See project</button>
-            </div>
-            <div class="card">
-                <h5 class="card-title">Profesional Art Printing Data</h5>
-                <p class="card-text">
-                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
-                </p>
-                <ul class="techs-card-two">
-                    <li class="tech-card">HTML</li>
-                    <li class="tech-card">Bootstrap</li>
-                    <li class="tech-card">Ruby</li>
-                </ul>
-                <button class="c-project">See project</button>
-            </div>
-            <div class="last-card card">
-                <h5 class="card-title">Profesional Art Printing Data</h5>
-                <p class="card-text">
-                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
-                </p>
-                <ul class="techs-card-two">
-                    <li class="tech-card">HTML</li>
-                    <li class="tech-card">Bootstrap</li>
-                    <li class="tech-card">Ruby</li>
-                </ul>
-                <button class="c-project">See project</button>
-            </div>
+            
     </section>
     <section class="about-me">
         <div class="about-me-text">
             <h2 class="about-me-title">About me</h2>
         <p class="about-text">
-            Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
+            Hello I’m a software developer! I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
         </p>
         <button class="resume">Get my resume</button>
         <div class="line-white"></div>
         </div>
 
-        <div class="skill">
-        <div class="rombo"></div>
-        <h5 class="language">Language</h5>
-        <ul class="skills">
-            <li class="lan">JavaScript</li>
-            <li class="lan">Ruby</li>
-            <li class="lan">HTML</li>
-            <li class="lan">CSS</li>
-        </ul>
-
-        <div class="square"></div>
-        <h5 class="language">Frameworks</h5>
-        <ul class="skills">
-            <li class="lan">React.js</li>
-            <li class="lan">Ruby on Rails</li>
-            <li class="lan">RSpec</li>
-            <li class="lan">Capybara</li>
-        </ul>
-
-        <div class="circle"></div>
-        <h5 class="language">Skills</h5>
-        <ul class="skills">
-            <li class="lan">Database Management</li>
-            <li class="lan">Version Control</li>
-            <li class="lan">CLI</li>
-            <li class="lan">API Design</li>
-            <li class="last-lan">Web Development</li>
-        </ul>
-        </div>
+        <div class="skill-container">
+            <div class="skill-title">
+              <div class="rombo shape"></div>
+              <h5 class="language">Language</h5>
+              <ul class="skills lang">
+                <li class="lan">JavaScript</li>
+                <li class="lan">Ruby</li>
+                <li class="lan">HTML</li>
+                <li class="lan">CSS</li>
+              </ul>
+            </div>
+            
+            <div class="skill-title">
+              <div class="square shape"></div>
+              <h5 class="language fr">Frameworks</h5>
+              <ul class="skillsb skills">
+                <li class="lan">React.js</li>
+                <li class="lan">Ruby on Rails</li>
+                <li class="lan">RSpec</li>
+                <li class="lan">Capybara</li>
+                <li class="lan">Selenium</li>
+              </ul>
+            </div>
+            
+            <div class="skill-title">
+              <div class="circle shape"></div>
+              <h5 class="language sk">Skills</h5>
+              <ul class="skills two">
+                <li class="lan">Database Management</li>
+                <li class="lan">Version Control</li>
+                <li class="lan">CLI</li>
+                <li class="lan">API Design</li>
+                <li class="lan last">Web Development</li>
+              </ul>
+            </div>
+          </div>
+          
 </section>
 
         <section class="contact-form">
@@ -165,7 +200,7 @@
 
             <form action='https://formspree.io/f/xlekzqzw' method="POST" id="form">
                 <input type="text" name="name" required placeholder="Full name" maxlength="30" class="input-text">
-                <input type="email" name="email" required placeholder="Email address" class="input-text">
+                <input type="email" name="email" required placeholder="Email address" class="input-text-b">
                 <textarea id="comments" class="input-textarea" name="comment" required
                     placeholder="Write me something..." maxlength="500"></textarea>
                 <button type="submit" class="get-in-touch">Get in touch</button>

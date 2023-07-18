@@ -108,6 +108,10 @@ No tests needed at the moment
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="deployment"></a>
+
+- [Live Demo Link] (https://migcm06.github.io/portfolio1.2/)
+
 
 ## 👥 Authors <a name="authors"></a>
 

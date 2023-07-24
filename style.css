@@ -1,0 +1,29 @@
+.row {
+    text-align: center;
+
+}
+
+.blue-stripe {
+background-color: blue;
+float: left;
+width: 33.33%;
+}
+
+.red-stripe {
+background-color: red;
+float: left;
+width: 33.33%;
+}
+
+.green-stripe {
+background-color: green;
+float: left;
+Width: 33.33%;
+}
+
+
+@media screen and (max-width: 768px) {
+[class*="-stripe"] {
+width: 100%;
+}
+}
